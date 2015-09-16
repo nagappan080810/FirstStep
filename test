@@ -1,0 +1,3 @@
+select * from TBLOGBEAN;
+
+CALL SYSCS_UTIL.SYSCS_EXPORT_TABLE('ICR','TBLOGBEAN','D:\logbean.txt',',','"',null);
