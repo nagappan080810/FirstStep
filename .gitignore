@@ -41,3 +41,9 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+#Directories excluded in project dir
+target/
+.*
+*.out
+*.iml

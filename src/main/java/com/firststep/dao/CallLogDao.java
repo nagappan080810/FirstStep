@@ -60,7 +60,7 @@ public class CallLogDao {
 		HibernateCallback<List<CallLog>> CallLogRead = new HibernateCallback<List<CallLog>>(){
 			public List<CallLog> doInHibernate(Session session){
 				//EntityManager em = session.criteria builder
-				//EntityManagerFactory emf = Persistence.createEntityManagerFactory("org.hibernate.tutorial.jpa");
+				EntityManagerFactory emf = Persistence.createEntityManagerFactory("org.hibernate.tutorial.jpa");
 				EntityManager entityManager= getEntityManager();
 				//criteriabuilder
 				CriteriaBuilder criteriaBuilder = entityManager.getCriteriaBuilder();

@@ -12,8 +12,6 @@ public class JSONStringify {
 		JSONObject object = new JSONObject("test");
 		JSONStringer stringer = new JSONStringer();
 		JSONWriter writer = stringer.value(new String("test"));
-		writer.
-		
 		System.out.println(stringer.value("test").toString());
 		
 	}

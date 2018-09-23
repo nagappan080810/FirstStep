@@ -3,7 +3,6 @@ package com.firststep.tutorial;
 import java.util.Arrays;
 import java.util.Scanner;
 
-import com.ctc.wstx.util.StringUtil;
 
 public class KeyboardReader {
 
